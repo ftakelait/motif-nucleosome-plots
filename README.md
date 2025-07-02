@@ -68,5 +68,6 @@ Show average motif occurrence profiles around nucleosome dyads for specific TF b
 ---
 
 # Convert to PNG
+```
 gs -dNOPAUSE -dBATCH -sDEVICE=pngalpha -r600 -sOutputFile="output.png" "input.ps"
 ```
